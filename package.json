@@ -1,0 +1,40 @@
+{
+  "name": "data-visualization-dashboard",
+  "version": "1.0.0",
+  "description": "A data visualization dashboard project",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm run test",
+    "eject": "cd frontend && npm run eject",
+    "dev": "concurrently \"cd dashboard-backend && python app.py\" \"cd dashboard-frontend && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "react-scripts": "^3.0.1"
+  }
+}
